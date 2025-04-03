@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Style rules for the first paragraph */
+.color-example {
+    /* === Requirement === */
+    color: dodgerblue; /* <<<--- CHANGE THIS to your favorite named color! */
+    background-color: #FFFFE0; /* Light Yellow - contrasts well with many colors (Hex code) */
+    border: 4px solid darkslategray; /* Thickness, style (solid), and color for the border */
+
+    /* --- Optional: Added padding so text isn't stuck to the edges --- */
+    padding: 15px;
+}
+
+/* Style rules for the header */
+.header-example {
+    /* === Requirement === */
+    font-size: 3em; /* Makes the header quite large */
+    font-family: 'Helvetica', Arial, sans-serif; /* Font preference order */
+    color: #4B0082; /* Indigo color */
+}
+
+/* Style rules for the unordered list */
+.list-example {
+    /* === Requirement === */
+    list-style-type: square; /* Changes bullets from circles to squares */
+    color: #006400; /* Dark Green color for list item text */
+}
+
+/* Style rules for the text example paragraph */
+.text-example {
+    /* === Requirement === */
+    font-family: 'Georgia', serif; /* A different font with serifs */
+    font-size: 1.3em; /* Makes the font larger than default */
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+    text-decoration: underline; /* Adds an underline to the text */
+}
+
+/* Style rules for the div element */
+.div-example {
+    /* === Requirement === */
+    background-color: #E6E6FA; /* Lavender background */
+    border: 2px dashed #8A2BE2; /* Thickness, style (dashed), and BlueViolet color */
+
+    /* --- Optional: Added padding and margin for better spacing --- */
+    padding: 20px;
+    margin-top: 25px; /* Adds space above this div */
+}
