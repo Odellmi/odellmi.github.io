@@ -1,0 +1,40 @@
+/* Styles for the color-example class */
+.color-example {
+  color: blue;
+  background-color: #F0E68C; 
+  border: 2px solid green;
+  padding: 10px;
+}
+
+/* Styles for the header-example class */
+.header-example {
+  font-size: 2.5em;
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+  margin-top: 20px;
+}
+
+/* Styles for the list-example class */
+.list-example {
+  list-style-type: square;
+  color: #FF4500;
+  margin: 15px 0;
+  margin-bottom: 5px;
+}
+
+/* Styles for the text-example class */
+.text-example {
+  font-family: 'Georgia', serif;
+  font-size: 1.25em;
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin: 20px 0;
+}
+
+/* Styles for the div-example class */
+.div-example {
+  background-color: #ADD8E6;  
+  border: 3px dashed #00008B; 
+  padding: 15px;
+  margin-top: 20px;
+}
