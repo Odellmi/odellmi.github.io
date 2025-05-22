@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoConnect - Your Gateway to Digital Assets</title>
+     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg { background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-200">
+
+    <header class="bg-slate-800 shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold text-sky-400">
+                Crypto<span class="text-teal-400">Connect</span>
+            </a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="index.html" class="text-slate-200 hover:text-sky-400 transition duration-300">Home</a>
+                <a href="about.html" class="text-slate-200 hover:text-sky-400 transition duration-300">About Us</a>
+                <a href="services.html" class="text-slate-200 hover:text-sky-400 transition duration-300">Services</a>
+                <a href="partners.html" class="text-slate-200 hover:text-sky-400 transition duration-300">Partners</a>
+                <a href="contact.html" class="text-slate-200 hover:text-sky-400 transition duration-300">Contact Us</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-slate-200 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800">
+            <a href="index.html" class="block px-6 py-3 text-slate-200 hover:bg-slate-700 hover:text-sky-400 transition duration-300">Home</a>
+            <a href="about.html" class="block px-6 py-3 text-slate-200 hover:bg-slate-700 hover:text-sky-400 transition duration-300">About Us</a>
+            <a href="services.html" class="block px-6 py-3 text-slate-200 hover:bg-slate-700 hover:text-sky-400 transition duration-300">Services</a>
+            <a href="partners.html" class="block px-6 py-3 text-slate-200 hover:bg-slate-700 hover:text-sky-400 transition duration-300">Partners</a>
+            <a href="contact.html" class="block px-6 py-3 text-slate-200 hover:bg-slate-700 hover:text-sky-400 transition duration-300">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-bg text-white py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center bg-slate-900 bg-opacity-70 p-10 rounded-lg">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Welcome to CryptoConnect</h1>
+                <p class="text-lg md:text-xl mb-8 text-slate-300">Your trusted partner in navigating the world of digital currencies. Explore, learn, and invest with confidence.</p>
+                <a href="services.html" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105">Get Started</a>
+            </div>
+        </section>
+
+        <section class="py-16 bg-slate-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12 text-sky-400">Why Choose Us?</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-slate-700 p-8 rounded-lg shadow-xl hover:shadow-sky-500/30 transition-shadow duration-300">
+                        <div class="text-sky-400 mb-4">
+                            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-center text-teal-400">Secure Transactions</h3>
+                        <p class="text-slate-300 text-center">State-of-the-art security protocols to protect your digital assets.</p>
+                    </div>
+                    <div class="bg-slate-700 p-8 rounded-lg shadow-xl hover:shadow-teal-500/30 transition-shadow duration-300">
+                        <div class="text-teal-400 mb-4">
+                            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-center text-sky-400">Fast & Easy</h3>
+                        <p class="text-slate-300 text-center">User-friendly platform for quick and effortless crypto management.</p>
+                    </div>
+                    <div class="bg-slate-700 p-8 rounded-lg shadow-xl hover:shadow-sky-500/30 transition-shadow duration-300">
+                        <div class="text-sky-400 mb-4">
+                            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-center text-teal-400">Expert Support</h3>
+                        <p class="text-slate-300 text-center">Dedicated support team available to assist you 24/7.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-sky-500">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-white mb-6">Ready to Dive In?</h2>
+                <p class="text-slate-100 text-lg mb-8">Join thousands of users who trust CryptoConnect for their digital currency needs.</p>
+                <a href="contact.html" class="bg-slate-800 hover:bg-slate-700 text-sky-400 font-bold py-3 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105">Contact Us Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-800 border-t border-slate-700 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-4">
+                <a href="index.html" class="text-2xl font-bold text-sky-400">
+                    Crypto<span class="text-teal-400">Connect</span>
+                </a>
+            </div>
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="text-slate-400 hover:text-sky-400 transition duration-300">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="Facebook"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-sky-400 transition duration-300">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="Twitter"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-sky-400 transition duration-300">
+                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="LinkedIn"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                </a>
+            </div>
+            <p class="text-sm text-slate-500">&copy; <span id="currentYear"></span> CryptoConnect. All rights reserved.</p>
+            <p class="text-xs text-slate-600 mt-2">Disclaimer: Cryptocurrency investments are subject to market risks. Please consult with a financial advisor before investing.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
